@@ -1,0 +1,167 @@
+.login-page {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+
+
+
+}
+
+.login {
+    border: 1px solid black;
+    width: 25%;
+    padding: 20px;
+    background-color: hsl(272, 79%, 59%);
+    height: 60%;
+}
+
+
+.input-name {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.input-name input {
+    outline: none;
+    border: none;
+    margin-left: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.input-name i {
+    color: white;
+}
+
+.input-password {
+    display: flex;
+    justify-content: flex-start;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+
+}
+
+.input-password input {
+    outline: none;
+    border: none;
+    margin-left: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.input-password i {
+    color: white;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+hr {
+
+
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.login button {
+
+
+    border-radius: 50px;
+    padding: 6px 13px;
+    border: 0;
+    margin-top: 20px;
+}
+
+.header-top {
+
+    height: 70px;
+    background-color: burlywood;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+}
+
+.inactive {
+    color: black;
+}
+
+.active {
+    color: "red";
+}
+
+.yes {
+    display: flex;
+}
+
+.Edit-Products {
+    display: flex;
+}
+
+.Cart-sec {
+    display: flex;
+}
+
+.Add-new-pro {
+    display: flex;
+}
+
+.button-ADU {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+
+}
+
+.button-ADU button {
+    border: 0;
+    color: white;
+    background-color: lightslategrey;
+    font-weight: 500;
+}
+
+.Table {
+    background-color: blanchedalmond;
+}
+
+.form-group {
+    background-color: gray;
+    color: black;
+    display: flex;
+    padding: 15px;
+    
+}
+
+.form-item {
+    background-color: gray;
+    color: black;
+    margin-left: 30px;
+
+
+}
+
+.label-text {
+    width: 140px;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+}
